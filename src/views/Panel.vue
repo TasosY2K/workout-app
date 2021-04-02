@@ -40,7 +40,7 @@
       />
     </div>
     <h4 v-else class="mt-2">No exercises found</h4>
-    <modal name="inputModal" class="modalInput">
+    <modal name="inputModal" class="modalInput" adaptive="true">
       <input
         type="text"
         class="form-control mt-5"
