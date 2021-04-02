@@ -1,6 +1,11 @@
 <template>
   <div class="login col-md-6 offset-md-3">
-    <input class="form-control" type="text" placeholder="Username" v-model="username" />
+    <input
+      class="form-control"
+      type="text"
+      placeholder="Username"
+      v-model="username"
+    />
     <br />
     <button class="btn btn-dark" @click="login">Login as {{ username }}</button>
   </div>
